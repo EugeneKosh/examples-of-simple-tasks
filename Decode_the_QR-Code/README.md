@@ -1,1 +1,3 @@
+#Decode the QR-Code (JavaScript)
+
 Task is to decode a qr code. You get the qr code as 2 dimensional array, filled with numbers. 1 is for a black field and 0 for a white field. It is always a qr code of version 1 (21*21), it is always using mask 0 ((x+y)%2), it is always using byte mode and it always has error correction level H (up to 30%). The qr code won't be positioned wrong and there won't be any squares for positioning exept the three big ones in the corners.
