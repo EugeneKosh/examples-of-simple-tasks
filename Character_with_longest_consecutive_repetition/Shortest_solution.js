@@ -1,0 +1,1 @@
+const longestRepetition = s => (s.match(/(.)(\1*)/g) || []).reduce((a,e) => e.length > a[1] ? [e[0],e.length] : a,['',0]);
